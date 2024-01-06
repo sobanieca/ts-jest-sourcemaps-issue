@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "jest --runInBand",
+    "start": "jest",
     "cache": "jest --clearCache",
-    "test": "NODE_OPTIONS=\"--inspect-brk\" ./node_modules/.bin/jest --runInBand"
+    "debug": "NODE_OPTIONS=\"--inspect-brk\" ./node_modules/.bin/jest --runInBand"
   },
   "author": "",
   "license": "ISC",

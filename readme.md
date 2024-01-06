@@ -16,4 +16,4 @@ Note how file path for express sample contain relative path, while ts-jest ones 
 
 #Repro steps
 
-Run `npm test` and connect Chrome debugger by going to `chrome://inspect`.
+Run `npm run debug` and connect Chrome debugger by going to `chrome://inspect`.
