@@ -1,0 +1,19 @@
+{
+  "name": "ts-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "jest --runInBand",
+    "cache": "jest --clearCache",
+    "test": "NODE_OPTIONS=\"--inspect-brk\" ./node_modules/.bin/jest --runInBand"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.3"
+  }
+}
